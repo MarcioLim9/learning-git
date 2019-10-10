@@ -4,12 +4,14 @@
       (git init: inicia um repo)
       (git commit -m "")
       (git add .)
+      (git -am "ele adiciona e coloca a mensagem")
 
 - [x] Você deseja verificar mudanças feitas no seu projeto
       (git log), (git status), (git show 'número do commit')
 
 - [x] Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.
       (git branch 'sua nova funcionalidade'), sem aspas
+      (git -b 'sua nova funcionalidade'), sem aspas
       (git checkout 'nome da branch'), você muda de branch
       (git branch), lista minhas branchs
       (ls -al, para conferir as mudanças)
@@ -26,15 +28,20 @@
       (git remote -v), para ver os repositórios
       (git push -u origin master (só na primeira vez))
 
-Você vai pegar um projeto já iniciado, para trabalhar com o time
+- [x] Você vai pegar um projeto já iniciado, para trabalhar com o time
+      (git clone 'link do github')
 
-Você precisa resolver um conflito.
+- [x] Você precisa resolver um conflito.
+      (o github já é uma mão na roda)
 
-Antes de enviar a resolução, precisamos atualizar o projeto local.
+- [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
+      (git pull)
 
-Você precisa voltar um arquivo para um determinado momento da linha do tempo.
+- [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
+      ( git checkout 'numero do commit' nome-do-arquivo.ext)
 
-Você precisa recuperar algo deletado.
+- [x] Você precisa recuperar algo deletado.
+      (git checkout -- 'nome do arquivo')
 
 git init // inicia a linha do tempo
 git add // adiciona ou atualiza mudanças para irem para a linha do tempoo
