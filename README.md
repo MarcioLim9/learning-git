@@ -2,6 +2,8 @@
 
 - [x] Você deseja criar pontos na história da produção do seu projeto
       (git init: inicia um repo)
+      (git commit -m "")
+      (git add .)
 
 - [x] Você deseja verificar mudanças feitas no seu projeto
       (git log), (git status), (git show 'número do commit')
@@ -20,7 +22,9 @@
       (git branch -D 'nome da branch')
 
 - [x] Você quer colocar seu projeto na nuvem.
-      ()
+      (git remote add origin 'link do github')
+      (git remote -v), para ver os repositórios
+      (git push -u origin master (só na primeira vez))
 
 Você vai pegar um projeto já iniciado, para trabalhar com o time
 
