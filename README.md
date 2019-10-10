@@ -1,10 +1,10 @@
 # Learning git
 
 - [x] Você deseja criar pontos na história da produção do seu projeto
-      _(git init: inicia um repo)
+      `_(git init: inicia um repo)`
       _(git commit -m "")
       _(git add .)
-      _(git -am "ele adiciona e coloca a mensagem")
+      \_(git -am "ele adiciona e coloca a mensagem")
 
 - [x] Você deseja verificar mudanças feitas no seu projeto
       \*(git log), (git status), (git show 'número do commit')
