@@ -47,7 +47,9 @@
 - `git add` // adiciona ou atualiza mudanças para irem para a linha do tempoo
 - `git commit` // adiciona um ponto na linha do tempo
 - `git log` // visualiza os pontos na linha do tempo / commit
+- `git shortlog` // visualiza os pontos na linha do tempo de uma maneira reduzida / commit
 - `git status` // informa o estado das alterações do nosso projeto
+- `git diff` `git diff --name-only` // mostra a alteração que fizemos no arquivo direto no terminal
 - `git show` // apresenta determinado ponto na história
 - `git branch` // gerenciar novas linhas do tempo
 - `git checkout` // manipula as linhas do tempo
