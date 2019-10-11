@@ -38,18 +38,25 @@
       `\*(git pull)`
 
 - [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
+      `\*( git checkout nome-do-arquivo.ext (antes do comit))`
       `\*( git checkout 'numero do commit' nome-do-arquivo.ext)`
 
 - [x] Você precisa recuperar algo deletado.
       `\*(git checkout -- 'nome do arquivo')`
 
+- [x] Você precisa desfazer seus commits
+      `\*(git reset --soft)` pega minhas modificações e mata o commit, mas o arquivo continua modificado e pronto pra ser comitado
+      `\*(git reset --mixed (melhor pra mim))` pega minhas modificações e mata o commit, mas o arquivo continua modificado e volta para antes de ser comitado
+      `\*(git reset --hard)` só ignora tudo e apaga
+
 - `git init` // inicia a linha do tempo
 - `git add` // adiciona ou atualiza mudanças para irem para a linha do tempoo
 - `git commit` // adiciona um ponto na linha do tempo
-- `git log` // visualiza os pontos na linha do tempo / commit
-- `git shortlog` // visualiza os pontos na linha do tempo de uma maneira reduzida / commit
+- `git log --author, --graph` // visualiza os pontos na linha do tempo / commit
+- `git shortlog -sn` // visualiza os pontos na linha do tempo de uma maneira reduzida
+- `git reset HEAD "nome-do-arquivo.ext"` // você tira o arquivo do unstaged, tira ele do "add"
 - `git status` // informa o estado das alterações do nosso projeto
-- `git diff` `git diff --name-only` // mostra a alteração que fizemos no arquivo direto no terminal
+- `git diff --name-only` // mostra a alteração que fizemos no arquivo direto no terminal
 - `git show` // apresenta determinado ponto na história
 - `git branch` // gerenciar novas linhas do tempo
 - `git checkout` // manipula as linhas do tempo
