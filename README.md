@@ -12,7 +12,7 @@
 - [x] Você começa uma nova funcionalidade no seu projeto, sem estragar o que já foi feito.
       `_(git branch 'sua nova funcionalidade'), sem aspas`
       `_(git -b 'sua nova funcionalidade'), sem aspas`
-      `_(git checkout 'nome da branch'), você muda de branch`
+      `_(git checkout -b 'nome da branch'), você cria e muda de branch`
       `_(git branch), lista minhas branchs`
       `_(ls -al, para conferir as mudanças)`
 
@@ -64,3 +64,6 @@
 - `git push` // envia alterações locais para o repositório remoto
 - `git clone` // clonar um projeto / repositório
 - `git pull` // puxa do repositório remoto
+- `git stash "list", "clear"` // cria uma 'pastinha' e guarda minhas mudanças para ser usadas depois com o `git stash apply`
+- `git revert` // deu problema em produção, então usa o git revert, mas você pode dar um checkout no commit que quebrou e depois modificá-lo
+- `git tag -a 1.0.0 -m "Mensagem"` // para definir as versões
